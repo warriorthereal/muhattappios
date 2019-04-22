@@ -1,0 +1,63 @@
+PODS:
+  - Alamofire (4.8.0)
+  - DynamicBlurView (3.0.1)
+  - Mixpanel (3.3.7)
+  - OneSignal (2.9.4)
+  - PopupDialog (0.9.2):
+    - DynamicBlurView (~> 3.0.1)
+  - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
+  - SnapKit (4.2.0)
+  - SwiftVideoBackground (3.1.0)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Mixpanel
+  - OneSignal
+  - PopupDialog (~> 0.9)
+  - RxCocoa
+  - RxSwift
+  - SDWebImage
+  - SnapKit
+  - SwiftVideoBackground (~> 3.0)
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DynamicBlurView
+    - Mixpanel
+    - OneSignal
+    - PopupDialog
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SnapKit
+    - SwiftVideoBackground
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  DynamicBlurView: b1df5415f9bd31897549e5d7077e5ec120a4d636
+  Mixpanel: 1e94d1d29dfc3d3c66f734d10e29ad86420889fe
+  OneSignal: a41f5a896177275662da07e23d6a809c0e105a89
+  PopupDialog: f4bb461bf70ff422be0b56656566424ee9273080
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftVideoBackground: 628408dbd5eb20b5f82f394aac9615d29aecb2f6
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 56b147ca730428c6f60419afd1b7368b98466865
+
+COCOAPODS: 1.5.3

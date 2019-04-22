@@ -7,21 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12B71A5B4963CA0BCC910875 /* Pods_muhattapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10999C1BEB4CA5B57BE0C0DA /* Pods_muhattapp.framework */; };
+		2009C4BA21EEA21300B1FBAC /* FirmaListesiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2009C4B921EEA21300B1FBAC /* FirmaListesiViewController.swift */; };
+		2009C4BC21EEA3AB00B1FBAC /* Firma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2009C4BB21EEA3AB00B1FBAC /* Firma.swift */; };
+		2009C4BF21EEA7C100B1FBAC /* TableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2009C4BE21EEA7C100B1FBAC /* TableViewCells.swift */; };
+		2009C4C321EEB23C00B1FBAC /* message.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2009C4C221EEAC9300B1FBAC /* message.mp4 */; };
+		2009C4C521EEC56500B1FBAC /* Departman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2009C4C421EEC56500B1FBAC /* Departman.swift */; };
+		204C6B3521E9696600F19531 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C6B3421E9696600F19531 /* LoginViewController.swift */; };
+		204C6B3721E9697000F19531 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C6B3621E9697000F19531 /* RegisterViewController.swift */; };
+		204C6B3921E9697800F19531 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C6B3821E9697800F19531 /* MainMenuViewController.swift */; };
+		204C6B3C21E9698C00F19531 /* DepartmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C6B3B21E9698C00F19531 /* DepartmanViewController.swift */; };
+		204C6B3F21E9699900F19531 /* CalisanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C6B3E21E9699900F19531 /* CalisanViewController.swift */; };
+		204C6B4121E96D0800F19531 /* background.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 204C6B4021E96CF400F19531 /* background.mp4 */; };
+		204C6B4521E96F4D00F19531 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C6B4421E96F4D00F19531 /* Extension.swift */; };
+		204C6B4721E96FC700F19531 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C6B4621E96FC700F19531 /* Strings.swift */; };
+		204C6B4921E9751F00F19531 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C6B4821E9751F00F19531 /* ApiService.swift */; };
+		204C6B4C21E976C200F19531 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C6B4B21E976C200F19531 /* User.swift */; };
+		204C6B4E21E978D800F19531 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C6B4D21E978D800F19531 /* Error.swift */; };
+		20563EFB21EFE20D00408D32 /* BildirimGonderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20563EFA21EFE20D00408D32 /* BildirimGonderViewController.swift */; };
+		20648DD8221F3D5700143BC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20648DD7221F3D5700143BC7 /* LaunchScreen.storyboard */; };
 		20A2308821E4B6E100FD9022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A2308721E4B6E100FD9022 /* AppDelegate.swift */; };
-		20A2308A21E4B6E100FD9022 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A2308921E4B6E100FD9022 /* ViewController.swift */; };
-		20A2308D21E4B6E100FD9022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A2308B21E4B6E100FD9022 /* Main.storyboard */; };
 		20A2308F21E4B6E300FD9022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A2308E21E4B6E300FD9022 /* Assets.xcassets */; };
-		20A2309221E4B6E300FD9022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A2309021E4B6E300FD9022 /* LaunchScreen.storyboard */; };
+		20A230A021E4B75300FD9022 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A2309F21E4B75300FD9022 /* NotificationService.swift */; };
+		20A230A421E4B75300FD9022 /* OneSignalNotificationExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 20A2309D21E4B75300FD9022 /* OneSignalNotificationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		20F1D50F2200E82B00E18145 /* PersonalLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F1D50E2200E82B00E18145 /* PersonalLoginViewController.swift */; };
+		20F1D5112200E8F300E18145 /* Pexels Videos 2659.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20F1D5102200E8E400E18145 /* Pexels Videos 2659.mp4 */; };
+		20F1D5132200EB9600E18145 /* DepartmanBildirimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F1D5122200EB9600E18145 /* DepartmanBildirimViewController.swift */; };
+		20F1D5152200EBFD00E18145 /* Bildirim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F1D5142200EBFD00E18145 /* Bildirim.swift */; };
+		D476C19F05C1EF0EF4195D26 /* Pods_OneSignalNotificationExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752C17D4EC3E27CB48716FD8 /* Pods_OneSignalNotificationExtension.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		20A230A221E4B75300FD9022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20A2307C21E4B6E100FD9022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20A2309C21E4B75300FD9022;
+			remoteInfo = OneSignalNotificationExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		20A230A821E4B75300FD9022 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				20A230A421E4B75300FD9022 /* OneSignalNotificationExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		10999C1BEB4CA5B57BE0C0DA /* Pods_muhattapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_muhattapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1644A7DD7CF48C3EE53AB4B6 /* Pods-muhattapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muhattapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-muhattapp/Pods-muhattapp.release.xcconfig"; sourceTree = "<group>"; };
+		2009C4B921EEA21300B1FBAC /* FirmaListesiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmaListesiViewController.swift; sourceTree = "<group>"; };
+		2009C4BB21EEA3AB00B1FBAC /* Firma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firma.swift; sourceTree = "<group>"; };
+		2009C4BE21EEA7C100B1FBAC /* TableViewCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCells.swift; sourceTree = "<group>"; };
+		2009C4C221EEAC9300B1FBAC /* message.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = message.mp4; sourceTree = "<group>"; };
+		2009C4C421EEC56500B1FBAC /* Departman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departman.swift; sourceTree = "<group>"; };
+		204C6B3421E9696600F19531 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		204C6B3621E9697000F19531 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		204C6B3821E9697800F19531 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		204C6B3B21E9698C00F19531 /* DepartmanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmanViewController.swift; sourceTree = "<group>"; };
+		204C6B3E21E9699900F19531 /* CalisanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalisanViewController.swift; sourceTree = "<group>"; };
+		204C6B4021E96CF400F19531 /* background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = background.mp4; sourceTree = "<group>"; };
+		204C6B4421E96F4D00F19531 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		204C6B4621E96FC700F19531 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		204C6B4821E9751F00F19531 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		204C6B4B21E976C200F19531 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		204C6B4D21E978D800F19531 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		20563EFA21EFE20D00408D32 /* BildirimGonderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BildirimGonderViewController.swift; sourceTree = "<group>"; };
+		20648DD7221F3D5700143BC7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20A2308421E4B6E100FD9022 /* muhattapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = muhattapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A2308721E4B6E100FD9022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20A2308921E4B6E100FD9022 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		20A2308C21E4B6E100FD9022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20A2308E21E4B6E300FD9022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		20A2309121E4B6E300FD9022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20A2309321E4B6E300FD9022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20A2309D21E4B75300FD9022 /* OneSignalNotificationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A2309F21E4B75300FD9022 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		20A230A121E4B75300FD9022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20F1D50C2200E21400E18145 /* muhattapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = muhattapp.entitlements; sourceTree = "<group>"; };
+		20F1D50E2200E82B00E18145 /* PersonalLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalLoginViewController.swift; sourceTree = "<group>"; };
+		20F1D5102200E8E400E18145 /* Pexels Videos 2659.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pexels Videos 2659.mp4"; sourceTree = "<group>"; };
+		20F1D5122200EB9600E18145 /* DepartmanBildirimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmanBildirimViewController.swift; sourceTree = "<group>"; };
+		20F1D5142200EBFD00E18145 /* Bildirim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bildirim.swift; sourceTree = "<group>"; };
+		752C17D4EC3E27CB48716FD8 /* Pods_OneSignalNotificationExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSignalNotificationExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B67A6F96E7BA87693EF001E /* Pods-muhattapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muhattapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-muhattapp/Pods-muhattapp.debug.xcconfig"; sourceTree = "<group>"; };
+		BF62FC12D3A0CCEA9EBFB582 /* Pods-OneSignalNotificationExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationExtension/Pods-OneSignalNotificationExtension.release.xcconfig"; sourceTree = "<group>"; };
+		E6D672F4A06C3D9A1112963F /* Pods-OneSignalNotificationExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationExtension/Pods-OneSignalNotificationExtension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +105,105 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B71A5B4963CA0BCC910875 /* Pods_muhattapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20A2309A21E4B75300FD9022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D476C19F05C1EF0EF4195D26 /* Pods_OneSignalNotificationExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EC6723694ECA67F8B7D3B08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6D672F4A06C3D9A1112963F /* Pods-OneSignalNotificationExtension.debug.xcconfig */,
+				BF62FC12D3A0CCEA9EBFB582 /* Pods-OneSignalNotificationExtension.release.xcconfig */,
+				9B67A6F96E7BA87693EF001E /* Pods-muhattapp.debug.xcconfig */,
+				1644A7DD7CF48C3EE53AB4B6 /* Pods-muhattapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2009C4BD21EEA7AE00B1FBAC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2009C4BE21EEA7C100B1FBAC /* TableViewCells.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		204C6B3121E9693700F19531 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				20F1D50D2200E58800E18145 /* Support_Personal */,
+				204C6B3421E9696600F19531 /* LoginViewController.swift */,
+				204C6B3621E9697000F19531 /* RegisterViewController.swift */,
+				204C6B3821E9697800F19531 /* MainMenuViewController.swift */,
+				204C6B3B21E9698C00F19531 /* DepartmanViewController.swift */,
+				204C6B3E21E9699900F19531 /* CalisanViewController.swift */,
+				2009C4B921EEA21300B1FBAC /* FirmaListesiViewController.swift */,
+				20563EFA21EFE20D00408D32 /* BildirimGonderViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		204C6B3221E9693C00F19531 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				204C6B4B21E976C200F19531 /* User.swift */,
+				2009C4BB21EEA3AB00B1FBAC /* Firma.swift */,
+				2009C4C421EEC56500B1FBAC /* Departman.swift */,
+				20F1D5142200EBFD00E18145 /* Bildirim.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		204C6B3321E9694500F19531 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		204C6B4221E96F3500F19531 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				20A2308E21E4B6E300FD9022 /* Assets.xcassets */,
+				204C6B4021E96CF400F19531 /* background.mp4 */,
+				2009C4C221EEAC9300B1FBAC /* message.mp4 */,
+				20F1D5102200E8E400E18145 /* Pexels Videos 2659.mp4 */,
+				204C6B4321E96F3E00F19531 /* Extensions */,
+				204C6B4821E9751F00F19531 /* ApiService.swift */,
+				204C6B4D21E978D800F19531 /* Error.swift */,
+				20648DD7221F3D5700143BC7 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		204C6B4321E96F3E00F19531 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				204C6B4421E96F4D00F19531 /* Extension.swift */,
+				204C6B4621E96FC700F19531 /* Strings.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		20A2307B21E4B6E100FD9022 = {
 			isa = PBXGroup;
 			children = (
 				20A2308621E4B6E100FD9022 /* muhattapp */,
+				20A2309E21E4B75300FD9022 /* OneSignalNotificationExtension */,
 				20A2308521E4B6E100FD9022 /* Products */,
+				0EC6723694ECA67F8B7D3B08 /* Pods */,
+				5FCE80C4A927FBA9A7DB356C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				20A2308421E4B6E100FD9022 /* muhattapp.app */,
+				20A2309D21E4B75300FD9022 /* OneSignalNotificationExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +219,43 @@
 		20A2308621E4B6E100FD9022 /* muhattapp */ = {
 			isa = PBXGroup;
 			children = (
+				20F1D50C2200E21400E18145 /* muhattapp.entitlements */,
+				2009C4BD21EEA7AE00B1FBAC /* Controllers */,
+				204C6B4221E96F3500F19531 /* Resource */,
+				204C6B3321E9694500F19531 /* Views */,
+				204C6B3221E9693C00F19531 /* Model */,
+				204C6B3121E9693700F19531 /* ViewController */,
 				20A2308721E4B6E100FD9022 /* AppDelegate.swift */,
-				20A2308921E4B6E100FD9022 /* ViewController.swift */,
-				20A2308B21E4B6E100FD9022 /* Main.storyboard */,
-				20A2308E21E4B6E300FD9022 /* Assets.xcassets */,
-				20A2309021E4B6E300FD9022 /* LaunchScreen.storyboard */,
 				20A2309321E4B6E300FD9022 /* Info.plist */,
 			);
 			path = muhattapp;
+			sourceTree = "<group>";
+		};
+		20A2309E21E4B75300FD9022 /* OneSignalNotificationExtension */ = {
+			isa = PBXGroup;
+			children = (
+				20A2309F21E4B75300FD9022 /* NotificationService.swift */,
+				20A230A121E4B75300FD9022 /* Info.plist */,
+			);
+			path = OneSignalNotificationExtension;
+			sourceTree = "<group>";
+		};
+		20F1D50D2200E58800E18145 /* Support_Personal */ = {
+			isa = PBXGroup;
+			children = (
+				20F1D50E2200E82B00E18145 /* PersonalLoginViewController.swift */,
+				20F1D5122200EB9600E18145 /* DepartmanBildirimViewController.swift */,
+			);
+			path = Support_Personal;
+			sourceTree = "<group>";
+		};
+		5FCE80C4A927FBA9A7DB356C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				752C17D4EC3E27CB48716FD8 /* Pods_OneSignalNotificationExtension.framework */,
+				10999C1BEB4CA5B57BE0C0DA /* Pods_muhattapp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,18 +265,40 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20A2309621E4B6E300FD9022 /* Build configuration list for PBXNativeTarget "muhattapp" */;
 			buildPhases = (
+				970EAA1C33CC5442732B2DCC /* [CP] Check Pods Manifest.lock */,
 				20A2308021E4B6E100FD9022 /* Sources */,
 				20A2308121E4B6E100FD9022 /* Frameworks */,
 				20A2308221E4B6E100FD9022 /* Resources */,
+				20A230A821E4B75300FD9022 /* Embed App Extensions */,
+				36463E0C64E872CFEC7CF0B9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				20A230A321E4B75300FD9022 /* PBXTargetDependency */,
 			);
 			name = muhattapp;
 			productName = muhattapp;
 			productReference = 20A2308421E4B6E100FD9022 /* muhattapp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		20A2309C21E4B75300FD9022 /* OneSignalNotificationExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20A230A521E4B75300FD9022 /* Build configuration list for PBXNativeTarget "OneSignalNotificationExtension" */;
+			buildPhases = (
+				2479F264907A07F1A2C7F761 /* [CP] Check Pods Manifest.lock */,
+				20A2309921E4B75300FD9022 /* Sources */,
+				20A2309A21E4B75300FD9022 /* Frameworks */,
+				20A2309B21E4B75300FD9022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationExtension;
+			productName = OneSignalNotificationExtension;
+			productReference = 20A2309D21E4B75300FD9022 /* OneSignalNotificationExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +311,17 @@
 				ORGANIZATIONNAME = "Arif Doğan";
 				TargetAttributes = {
 					20A2308321E4B6E100FD9022 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					20A2309C21E4B75300FD9022 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
@@ -113,6 +340,7 @@
 			projectRoot = "";
 			targets = (
 				20A2308321E4B6E100FD9022 /* muhattapp */,
+				20A2309C21E4B75300FD9022 /* OneSignalNotificationExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -122,44 +350,156 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20A2309221E4B6E300FD9022 /* LaunchScreen.storyboard in Resources */,
+				20F1D5112200E8F300E18145 /* Pexels Videos 2659.mp4 in Resources */,
+				2009C4C321EEB23C00B1FBAC /* message.mp4 in Resources */,
+				204C6B4121E96D0800F19531 /* background.mp4 in Resources */,
+				20648DD8221F3D5700143BC7 /* LaunchScreen.storyboard in Resources */,
 				20A2308F21E4B6E300FD9022 /* Assets.xcassets in Resources */,
-				20A2308D21E4B6E100FD9022 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20A2309B21E4B75300FD9022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2479F264907A07F1A2C7F761 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36463E0C64E872CFEC7CF0B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-muhattapp/Pods-muhattapp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/Mixpanel/Mixpanel.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftVideoBackground/SwiftVideoBackground.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mixpanel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftVideoBackground.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-muhattapp/Pods-muhattapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		970EAA1C33CC5442732B2DCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-muhattapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		20A2308021E4B6E100FD9022 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20A2308A21E4B6E100FD9022 /* ViewController.swift in Sources */,
+				204C6B3F21E9699900F19531 /* CalisanViewController.swift in Sources */,
+				204C6B3921E9697800F19531 /* MainMenuViewController.swift in Sources */,
+				204C6B4721E96FC700F19531 /* Strings.swift in Sources */,
+				20563EFB21EFE20D00408D32 /* BildirimGonderViewController.swift in Sources */,
+				2009C4C521EEC56500B1FBAC /* Departman.swift in Sources */,
+				20F1D50F2200E82B00E18145 /* PersonalLoginViewController.swift in Sources */,
+				204C6B4E21E978D800F19531 /* Error.swift in Sources */,
+				2009C4BC21EEA3AB00B1FBAC /* Firma.swift in Sources */,
+				204C6B4521E96F4D00F19531 /* Extension.swift in Sources */,
+				204C6B3721E9697000F19531 /* RegisterViewController.swift in Sources */,
+				2009C4BF21EEA7C100B1FBAC /* TableViewCells.swift in Sources */,
+				20F1D5152200EBFD00E18145 /* Bildirim.swift in Sources */,
+				204C6B4921E9751F00F19531 /* ApiService.swift in Sources */,
+				204C6B3521E9696600F19531 /* LoginViewController.swift in Sources */,
+				2009C4BA21EEA21300B1FBAC /* FirmaListesiViewController.swift in Sources */,
 				20A2308821E4B6E100FD9022 /* AppDelegate.swift in Sources */,
+				204C6B4C21E976C200F19531 /* User.swift in Sources */,
+				204C6B3C21E9698C00F19531 /* DepartmanViewController.swift in Sources */,
+				20F1D5132200EB9600E18145 /* DepartmanBildirimViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20A2309921E4B75300FD9022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A230A021E4B75300FD9022 /* NotificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		20A2308B21E4B6E100FD9022 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20A2308C21E4B6E100FD9022 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		20A230A321E4B75300FD9022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20A2309C21E4B75300FD9022 /* OneSignalNotificationExtension */;
+			targetProxy = 20A230A221E4B75300FD9022 /* PBXContainerItemProxy */;
 		};
-		20A2309021E4B6E300FD9022 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20A2309121E4B6E300FD9022 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		20A2309421E4B6E300FD9022 /* Debug */ = {
@@ -280,8 +620,12 @@
 		};
 		20A2309721E4B6E300FD9022 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B67A6F96E7BA87693EF001E /* Pods-muhattapp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_ENTITLEMENTS = muhattapp/muhattapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F2FP37RBSY;
 				INFOPLIST_FILE = muhattapp/Info.plist;
@@ -298,8 +642,12 @@
 		};
 		20A2309821E4B6E300FD9022 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1644A7DD7CF48C3EE53AB4B6 /* Pods-muhattapp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_ENTITLEMENTS = muhattapp/muhattapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F2FP37RBSY;
 				INFOPLIST_FILE = muhattapp/Info.plist;
@@ -309,6 +657,46 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.warrior.muhattapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20A230A621E4B75300FD9022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6D672F4A06C3D9A1112963F /* Pods-OneSignalNotificationExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2FP37RBSY;
+				INFOPLIST_FILE = OneSignalNotificationExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.warrior.muhattapp.OneSignalNotificationExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20A230A721E4B75300FD9022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF62FC12D3A0CCEA9EBFB582 /* Pods-OneSignalNotificationExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2FP37RBSY;
+				INFOPLIST_FILE = OneSignalNotificationExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.warrior.muhattapp.OneSignalNotificationExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -331,6 +719,15 @@
 			buildConfigurations = (
 				20A2309721E4B6E300FD9022 /* Debug */,
 				20A2309821E4B6E300FD9022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20A230A521E4B75300FD9022 /* Build configuration list for PBXNativeTarget "OneSignalNotificationExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20A230A621E4B75300FD9022 /* Debug */,
+				20A230A721E4B75300FD9022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
